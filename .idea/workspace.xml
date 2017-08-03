@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="988e1016-1e75-4a1a-9a04-a39f05a80975" name="Default" comment="" />
+    <list default="true" id="988e1016-1e75-4a1a-9a04-a39f05a80975" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1. twosum/twosum_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/167. twosum2/twosum2_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query_test.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/303. Range Sum Query - Immutable/solution0.go" afterPath="$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1. twosum/twosum.go" afterPath="$PROJECT_DIR$/1. twosum/twosum.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/167. twosum2/twosum2.go" afterPath="$PROJECT_DIR$/167. twosum2/twosum2.go" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,25 +17,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCode$twosum_test_go.coverage" NAME="twosum_test.go Coverage Results" MODIFIED="1501769164131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="solution0.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/solution0.go">
+      <file leaf-file-name="range_sum_query.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twosum.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1. twosum/twosum.go">
+      <file leaf-file-name="range_sum_query_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
-                <element signature="e#14#31#0" expanded="true" />
+                <element signature="e#25#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,13 +58,25 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/twosum.go" />
         <option value="$PROJECT_DIR$/twosum/twosum.go" />
         <option value="$PROJECT_DIR$/twosum2/twosum2.go" />
+        <option value="$PROJECT_DIR$/303. Range Sum Query - Immutable/1.go" />
+        <option value="$PROJECT_DIR$/303. Range Sum Query - Immutable/test.go" />
+        <option value="$PROJECT_DIR$/303. Range Sum Query - Immutable/solution0_test.go" />
         <option value="$PROJECT_DIR$/303. Range Sum Query - Immutable/solution0.go" />
+        <option value="$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query.go" />
+        <option value="$PROJECT_DIR$/1. twosum/twosum_test.go" />
+        <option value="$PROJECT_DIR$/1. twosum/twosum.go" />
+        <option value="$PROJECT_DIR$/167. twosum2/twosum2.go" />
+        <option value="$PROJECT_DIR$/167. twosum2/twosum2_test.go" />
+        <option value="$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query_test.go" />
       </list>
     </option>
   </component>
@@ -69,6 +92,7 @@
     <option name="width" value="1436" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -91,6 +115,11 @@
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="1. twosum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -118,6 +147,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/167. twosum2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/twosum2" />
       <recent name="$PROJECT_DIR$" />
@@ -135,40 +167,95 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run solution0.go">
-    <configuration name="Build twosum2.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application">
+  <component name="RunManager" selected="Go Test.All in '303. Range Sum Query - Immutable'">
+    <configuration name="All in '167. twosum2'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/twosum2" />
+      <working_directory value="$PROJECT_DIR$/167. twosum2" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/167. twosum2" />
+    </configuration>
+    <configuration name="All in '1. twosum'" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/1. twosum" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/1. twosum" />
+      <filePath value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in '303. Range Sum Query - Immutable'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/303. Range Sum Query - Immutable" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/303. Range Sum Query - Immutable" />
+    </configuration>
+    <configuration name="All in 'LeetCode'" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Test303 in range_sum_query_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/303. Range Sum Query - Immutable" />
       <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$/twosum2/twosum2.go" />
+      <framework value="gotest" />
       <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query_test.go" />
+      <pattern value="^Test303$" />
     </configuration>
-    <configuration name="Build twosum.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/twosum" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$/twosum/twosum.go" />
-      <kind value="FILE" />
-    </configuration>
-    <configuration name="go run solution0.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/303. Range Sum Query - Immutable/solution0.go" />
-    </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Go Application.Build twosum2.go and run" />
-      <item index="1" class="java.lang.String" itemvalue="Go Application.Build twosum.go and run" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run solution0.go" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Test.All in '1. twosum'" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.All in '303. Range Sum Query - Immutable'" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.All in '167. twosum2'" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.All in 'LeetCode'" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.Test303 in range_sum_query_test.go" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run solution0.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Application.Build twosum.go and run" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.All in '303. Range Sum Query - Immutable'" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.Test303 in range_sum_query_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.All in '167. twosum2'" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_'167__twosum2' - 2017.08.03 at 22h 10m 22s.xml">
+      <configuration name="All in '167. twosum2'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'167__twosum2' - 2017.08.03 at 22h 12m 54s.xml">
+      <configuration name="All in '167. twosum2'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'1__twosum' - 2017.08.03 at 22h 08m 20s.xml">
+      <configuration name="All in '1. twosum'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'1__twosum' - 2017.08.03 at 22h 09m 26s.xml">
+      <configuration name="All in '1. twosum'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'1__twosum' - 2017.08.03 at 22h 13m 32s.xml">
+      <configuration name="All in '1. twosum'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'303__Range_Sum_Query_-_Immutable' - 2017.08.03 at 22h 08m 13s.xml">
+      <configuration name="All in '303. Range Sum Query - Immutable'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'303__Range_Sum_Query_-_Immutable' - 2017.08.03 at 22h 13m 35s.xml">
+      <configuration name="All in '303. Range Sum Query - Immutable'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'303__Range_Sum_Query_-_Immutable' - 2017.08.03 at 22h 13m 44s.xml">
+      <configuration name="All in '303. Range Sum Query - Immutable'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'303__Range_Sum_Query_-_Immutable' - 2017.08.03 at 22h 23m 44s.xml">
+      <configuration name="All in '303. Range Sum Query - Immutable'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'LeetCode' - 2017.08.03 at 22h 13m 18s.xml">
+      <configuration name="All in 'LeetCode'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
@@ -179,8 +266,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -209,7 +297,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#18#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -219,7 +307,7 @@
         <state relative-caret-position="225">
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#17#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -229,7 +317,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#18#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -239,36 +327,82 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#18#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="621" column="0" lean-forward="false" selection-start-line="621" selection-start-column="0" selection-end-line="621" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1. twosum/twosum.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/167. twosum2/twosum2_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#18#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. twosum/twosum_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#17#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/167. twosum2/twosum2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#18#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/solution0.go">
+    <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#25#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

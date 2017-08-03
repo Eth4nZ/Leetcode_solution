@@ -1,13 +1,5 @@
-package main
+package range_sum_query
 
-func main(){
-	nums := []int{-2, 0, 3, -5, 2, -1}
-	obj := Constructor(nums)
-	println("expect 1, found: ", obj.SumRange(0, 2))
-	println("expect -1, found: ", obj.SumRange(2, 5))
-	println("expect -3, found: ", obj.SumRange(0, 5))
-
-}
 
 type NumArray struct {
 	numArray []int
@@ -15,17 +7,15 @@ type NumArray struct {
 
 
 func Constructor(nums []int) NumArray {
-	for i := range nums {
-		if i > 0 {
-			nums[i] += nums[i-1]
-		}
+	for i := 1; i < len(nums); i++ {
+		nums[i] += nums[i-1]
 	}
 	return NumArray{nums}
 }
 
 
 func (this *NumArray) SumRange(i int, j int) int {
-	if i == 0{
+	if i == 0 {
 		return this.numArray[j]
 	} else{
 		return this.numArray[j] - this.numArray[i-1]

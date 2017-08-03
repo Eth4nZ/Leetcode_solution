@@ -1,7 +1,8 @@
-package main
+package two_sum
 
 import (
 	"fmt"
+	"sort"
 )
 
 func main() {
@@ -20,6 +21,7 @@ func twoSum(nums []int, target int) []int {
 			if i == index { continue }
 			result[0] = i
 			result[1] = index
+			sort.Ints(result)
 			return result
 		}
 		hashMap[target-nums[i]] = i
