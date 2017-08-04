@@ -12,17 +12,27 @@ func TestAddTwoNumbersTest(test *testing.T) {
 			[]int{5, 6, 4},
 		},
 		{
+			[]int{0, 4},
+			[]int{0, 6, 4},
+		},
+		{
 			[]int{1, 8},
 			[]int{0},
+		},
+		{
+			[]int{1},
+			[]int{9, 9},
 		},
 	}
 
 	results := [][]int{
 		{7, 0, 8},
+		{0, 0, 5},
 		{1, 8},
+		{0, 0, 1},
 	}
 
-	caseNum := 2
+	caseNum := len(tests)
 	for t := 0; t < caseNum; t++ {
 		lhs := &ListNode{tests[t][0][0], nil}
 		rhs := &ListNode{tests[t][1][0], nil}
@@ -49,7 +59,7 @@ func TestAddTwoNumbersTest(test *testing.T) {
 			ans = append(ans, ret.Val)
 		}
 		if !IntArrayEquals(ans, results[t]) {
-			test.Fatalf("case 0 fails: %v\n", ans)
+			test.Fatalf("\ncase %d failed.\ntest case: %v, %v\nfound: %v, expected: %v\n", t, tests[t][0], tests[t][1], ans, results[t])
 		}
 	}
 }
