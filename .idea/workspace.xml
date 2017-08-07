@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988e1016-1e75-4a1a-9a04-a39f05a80975" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters.go" afterPath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters_test.go" afterPath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters_test.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="longest_substring_without_repeating_characters.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="296">
+              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -31,8 +30,8 @@
       <file leaf-file-name="longest_substring_without_repeating_characters_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+            <state relative-caret-position="138">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#59#75#0" expanded="true" />
               </folding>
@@ -255,34 +254,34 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_'167__twosum2' - 2017.08.07 at 19h 20m 48s.xml">
-      <configuration name="All in '167. twosum2'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'2__Add_Two_Numbers' - 2017.08.04 at 15h 12m 11s.xml">
-      <configuration name="All in '2. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'2__Add_Two_Numbers' - 2017.08.04 at 15h 12m 33s.xml">
-      <configuration name="All in '2. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'2__Add_Two_Numbers' - 2017.08.04 at 15h 28m 32s.xml">
-      <configuration name="All in '2. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 19h 19m 24s.xml">
-      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 19h 19m 42s.xml">
-      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 19h 20m 52s.xml">
-      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 20h 05m 08s.xml">
-      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 20h 05m 49s.xml">
       <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 20h 06m 29s.xml">
+      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 20h 36m 47s.xml">
+      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 20h 51m 19s.xml">
+      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 20h 58m 28s.xml">
+      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 21h 14m 05s.xml">
+      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 21h 14m 24s.xml">
+      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 21h 14m 32s.xml">
+      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 21h 14m 46s.xml">
+      <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'3__Longest_Substring_Without_Repeating_Characters' - 2017.08.07 at 21h 16m 54s.xml">
       <configuration name="All in '3. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -335,6 +334,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -342,6 +342,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -386,6 +387,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -393,6 +395,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="621" column="0" lean-forward="false" selection-start-line="621" selection-start-column="0" selection-end-line="621" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -419,29 +422,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/167. twosum2/twosum2_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
-          <folding>
-            <element signature="e#59#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -453,10 +438,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/303. Range Sum Query - Immutable/range_sum_query.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#59#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/longest_substring_without_repeating_characters.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="296">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding />
         </state>
       </provider>
