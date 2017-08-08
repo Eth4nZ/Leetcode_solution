@@ -9,6 +9,10 @@ func TestFindMedianSortedArrays(test *testing.T) {
 			[]int{2},
 		},
 		{
+			[]int{1, 2, 3, 4, 6, 7, 8, 9},
+			[]int{5},
+		},
+		{
 			[]int{1, 2, 3},
 			[]int{4, 5, 6},
 		},
@@ -32,15 +36,21 @@ func TestFindMedianSortedArrays(test *testing.T) {
 			[]int{1, 3, 4},
 			[]int{2, 5, 6},
 		},
+		{
+			[]int{},
+			[]int{2, 3},
+		},
 	}
 	results := []float64{
 		2,
+		5,
 		3.5,
 		1,
 		2,
 		2,
 		2,
 		3.5,
+		2.5,
 	}
 
 	for t := 0; t < len(tests); t++ {
