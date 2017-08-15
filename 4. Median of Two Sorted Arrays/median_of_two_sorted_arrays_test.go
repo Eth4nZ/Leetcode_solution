@@ -40,6 +40,10 @@ func TestFindMedianSortedArrays(test *testing.T) {
 			[]int{},
 			[]int{2, 3},
 		},
+		{
+			[]int{1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19},
+			[]int{1, 1, 1, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29},
+		},
 	}
 	results := []float64{
 		2,
@@ -51,12 +55,12 @@ func TestFindMedianSortedArrays(test *testing.T) {
 		2,
 		3.5,
 		2.5,
+		12,
 	}
 
 	for t := 0; t < len(tests); t++ {
 		if ret := findMedianSortedArrays(tests[t][0], tests[t][1]); ret != results[t] {
 			test.Fatalf("case %d failed. found: %v, expect: %v \n", t, ret, results[t])
 		}
-		println("--", t, "--")
 	}
 }

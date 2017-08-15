@@ -30,14 +30,12 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 			a = nums2[j]
 		}
 
-		println(i, j, a, b)
 	}
 
 	if i+j < 0 {
 		b = a
 	}
 
-	println(isOddLen)
 	if isOddLen {
 		return float64(b)
 	} else {
