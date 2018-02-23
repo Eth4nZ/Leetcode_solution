@@ -15,6 +15,7 @@ func TestLongestPalindrome(test *testing.T) {
 		"cbbd",
 		"baabaad",
 		"aaabcbaaa",
+		"abcda",
 	}
 	results := []string{
 		"",
@@ -26,6 +27,7 @@ func TestLongestPalindrome(test *testing.T) {
 		"bb",
 		"aabaa",
 		"aaabcbaaa",
+		"a",
 	}
 
 	for t := 0; t < len(tests); t++ {

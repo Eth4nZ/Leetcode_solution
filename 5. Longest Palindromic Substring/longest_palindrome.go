@@ -62,6 +62,10 @@ func longestPalindrome(s string) string {
 		pc++
 	}
 
+	if len(curLongestPalindrome) < 2 {
+		return string(s[0])
+	}
+
 	return curLongestPalindrome
 }
 
