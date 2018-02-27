@@ -1,7 +1,7 @@
 package ___Longest_Palindromic_Substring
 
 
-func longestPalindrome(s string) string {
+func longestPalindrome0(s string) string {
 	if len(s) < 2 {
 		return s
 	}
@@ -69,3 +69,11 @@ func longestPalindrome(s string) string {
 	return curLongestPalindrome
 }
 
+func longestPalindrome1(s string) string {
+	if len(s) < 2 {
+		return s
+	}
+	curLongestPalindrome := ""
+
+	return curLongestPalindrome
+}
