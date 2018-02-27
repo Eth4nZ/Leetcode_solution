@@ -1,4 +1,4 @@
-package _5.longest.palindromic.substring
+package _5_longest_palindromic_substring
 
 
 import org.junit.Assert.assertArrayEquals
