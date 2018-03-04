@@ -1,8 +1,13 @@
 package _5_longest_palindromic_substring
 
+import jdk.nashorn.internal.objects.NativeString.substr
+
+
+
 
 
 class LongestPalindromicSubstring {
+
     fun longestPalindrome0(s: String): String {
         if (s.length < 2)
             return s
@@ -11,29 +16,22 @@ class LongestPalindromicSubstring {
         var lhs: Int
         var rhs: Int
         while (pc < s.length * 2 - 2) {
-            var temp = ""
             if (pc % 2 == 0) {
-                temp = s[pc / 2].toString()
                 lhs = pc / 2 - 1
                 rhs = pc / 2 + 1
             } else {
                 lhs = pc / 2
                 rhs = pc / 2+1
             }
-            while (lhs >= 0 && rhs <= s.length - 1 && s[lhs] == s[rhs]) {
-                temp = s[lhs] + temp + s[rhs]
+            while (lhs >= 0 && rhs <= s.lastIndex && s[lhs] == s[rhs]) {
                 lhs--
                 rhs++
             }
-            if (temp.length == s.length)
-                return s
+            val temp = s.substring(lhs + 1, rhs)
             if (temp.length > curLongestPalindrome.length) {
                 curLongestPalindrome = temp
             }
             pc++
-        }
-        if (curLongestPalindrome.length < 2) {
-            return s[0].toString()
         }
 
         return curLongestPalindrome
@@ -141,6 +139,32 @@ class LongestPalindromicSubstring {
         }
 
         return ret
+    }
+
+    private fun expandAroundCenter(s: String, c1: Int, c2: Int): String {
+        var l = c1
+        var r = c2
+        while (l >= 0 && r <= s.lastIndex && s[l] == s[r]) {
+            l--
+            r++
+        }
+        return s.substring(l + 1, r)
+    }
+
+    fun longestPalindromeExpand1(s: String): String {
+        if (s.isEmpty()) return ""
+
+        var longest = s.substring(0, 1)  // a single char itself is a palindrome
+        for (i in 0..s.lastIndex) {
+            val p1 = expandAroundCenter(s, i, i)
+            if (p1.length > longest.length)
+                longest = p1
+
+            val p2 = expandAroundCenter(s, i, i + 1)
+            if (p2.length > longest.length)
+                longest = p2
+        }
+        return longest
     }
 
 

@@ -9,15 +9,15 @@ import org.junit.Test
             "babadada",
             "",
             "cbbd",
-            "abcba",
+            "abcba", // 4
             "aa",
             "aaa",
             "aaaa",
             "aaaaa",
             "baabaad",
-            "aaabcbaaa",
+            "aaabcbaaa", // 10
             "abbbc",
-            "abcda",
+            "abcda", // 12
             "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
             "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
                     "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
@@ -145,6 +145,17 @@ class TestLongestPalindromicSubstringDP3 {
     fun testLongestPalindrome() {
         val tests = tests
         val data = tests.map { LongestPalindromicSubstring().longestPalindromeDP3(it) }
+        assertArrayEquals(results.toTypedArray(), data.toTypedArray())
+    }
+}
+
+
+class TestLongestPalindromicSubstringExpand1 {
+
+    @Test
+    fun testLongestPalindrome() {
+        val tests = tests
+        val data = tests.map { LongestPalindromicSubstring().longestPalindromeExpand1(it) }
         assertArrayEquals(results.toTypedArray(), data.toTypedArray())
     }
 }
