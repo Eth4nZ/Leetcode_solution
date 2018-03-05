@@ -34,34 +34,30 @@ class NumberOfMatchingSubsequences {
 //    }
 
 
-    fun numMatchingSubseqDict(S: String, words: Array<String>): Int {
-
+    fun numMatchingSubseqDict(s: String, words: Array<String>): Int {
         val dictionary = Array(26, { ArrayList<Int>(0)  })
-        for ((i, c) in S.withIndex()) {
+        for ((i, c) in s.withIndex()) {
             dictionary[c-'a'].add(i)
         }
-        val f = dictionary['g'-'a'].lastIndex
+
         var count = 0
         for (word in words) {
             var i = 0
             for (c in word) {
                 var position = dictionary[c - 'a'].binarySearch(i)
-                if (position >= 0) {
-                    i = dictionary[c - 'a'][position] + 1
-                } else
+                if (position < 0)
                     position = -position - 1
-                    if (position > dictionary[c - 'a'].lastIndex) {
-                        i = -1
-                        break
-                    }
-                    else
-                        i = dictionary[c - 'a'][position] + 1
+                if (position > dictionary[c - 'a'].lastIndex) {
+                    i = -1
+                    break
+                }
+                else
+                    i = dictionary[c - 'a'][position] + 1
             }
             if (i > word.lastIndex){
                 count++
             }
         }
-
         return count
     }
 
