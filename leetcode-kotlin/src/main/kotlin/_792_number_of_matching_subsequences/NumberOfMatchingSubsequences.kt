@@ -1,9 +1,6 @@
 package _792_number_of_matching_subsequences
 
-import com.sun.org.apache.xpath.internal.operations.Bool
-import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.math.absoluteValue
 
 
 class NumberOfMatchingSubsequences {

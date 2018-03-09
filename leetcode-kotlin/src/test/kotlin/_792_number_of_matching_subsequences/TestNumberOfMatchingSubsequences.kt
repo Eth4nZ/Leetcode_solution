@@ -1,9 +1,6 @@
 package _792_number_of_matching_subsequences
 
-import _5_longest_palindromic_substring.tests
-import com.sun.xml.internal.fastinfoset.util.StringArray
 import org.junit.Assert.assertArrayEquals
-import org.junit.Assert.assertEquals
 import org.junit.Test
 
 
