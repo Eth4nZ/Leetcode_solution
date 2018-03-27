@@ -130,7 +130,7 @@ class LongestPalindromicSubstring {
         var ret = ""
         val dp = Array(s.length, { BooleanArray(s.length) })
         for (i in 0..s.lastIndex) {
-            for (j in i downTo 0) {
+            for (j in 0..i) {
                 dp[i][j] = s[i] == s[j] && (i - j <= 2 || dp[i - 1][j + 1])
                 if (dp[i][j] && i - j + 1 > ret.length)
                     ret = s.substring(j, i + 1)
