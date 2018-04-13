@@ -62,7 +62,7 @@ class_name=${class_name//_/}
 package_name=$(tr '[:upper:]' '[:lower:]' <<<"$name")
 test_class_name=Test$number$class_name
 
-mkdir src/main/kotlin/$name
+mkdir src/main/kotlin/$package_name
 create_class "$class_name" "$package_name"
-mkdir src/test/kotlin/$name
+mkdir src/test/kotlin/$package_name
 create_test_class "$test_class_name" "$package_name" "$number" "$class_name"
